@@ -6,22 +6,176 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projet Reservia</title>
     <link rel="stylesheet" href="style.css">
+    <!-- script pour font awesome -->
+    <script src="https://kit.fontawesome.com/75450f07ab.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
     <header>
-        <div class="logo">
-             <img src="./img/logo/Reservia.svg" alt="logo de la compagnie">
-                </div>
-                <nav>
-                    <a href="#hebergement" target="_top">Hébergment</a>
-                </nav>
-        <h1>Mon titre 1</h1>
+        <div class="header_haut">
+            <div class="logo">
+                <img src="./img/logo/Reservia.svg" alt="logo de la compagnie">
+            </div>
+            <nav class=nav_bar>
+                <div class="nav_item selected">
+                    <a href="#hebergement" target="_top" class="nav_lien">Hébergment</a></div>
+                <div class="nav_item">
+                    <a href="#activité" target="_top" class="nav_lien">Activités</a></div>
+                <div class="nav_item">
+                    <a href="#inscription" target="_top" class="nav_lien inscription">S'inscrire</a></div>
+
+            </nav>
+        </div>
+        <div class="header_bas">
+            <h2>Trouver votre hébergement pour des vacances de rêves</h2>
+            <p>En plein centre ville ou en pleine nature</p>
+        </div>
     </header>
+    <section class="recherche">
+        <form action="" method="post">
+            <i class="fas fa-map-marker-alt"></i>
+            <input type="text">
+            <button type="submit" id=bouton_recherce>Rechercher</button>
+        </form>
+
+        <!--  filtres  -->
+        <div class="filtres">
+            <div class="titre_filtre">Filtres</div>
+            <div class="filter_type filter_type_eco">économique</div>
+            <div class="filter_type filter_type_fam">Familial</div>
+            <div class="filter_type filter_type_rom">Romantique</div>
+            <div class="filter_type filter_type_pet">Animaux autorisé</div>
+
+        </div>
+        <!-- section avec le petit logo I   -->
+        <div class="ligne_info">
+            <div class="centered_icon">
+                <i class="fas fa-info"></i>
+
+            </div>
+            </p> Plus de 500 logements sont disponibles dans cette ville</p>
+        </div>
+
+
+    </section>
     <section>
+
         <div class="hebergement" id="hebergement">
-          <p>testttt
-          </p>  
+            <div class="hebergement_resultat">
+                <h2 class="hebergement_titre">Hébergment à Marseille</h2>
+                <div class="carte_resultat">
+                    <img src="" alt="">
+                    <p class="titre_carte">Auberge la canebière </p>
+                    <p class="tarif_nuit">Nuit à partire de 25€</p>
+                    <p class="rating">
+                        <i class="fas fa-star blue"></i>
+                        <i class="fas fa-star blue"></i>
+                        <i class="fas fa-star blue"></i>
+                        <i class="fas fa-star blue"></i>
+                        <i class="fas fa-star grey"></i>
+                    </p>
+                </div>
+                <div class="carte_resultat">
+                    <img src="" alt="">
+                    <p class="titre_carte">Auberge la canebière </p>
+                    <p class="tarif_nuit">Nuit à partire de 25€</p>
+                    <p class="rating">
+                        <i class="fas fa-star blue"></i>
+                        <i class="fas fa-star blue"></i>
+                        <i class="fas fa-star blue"></i>
+                        <i class="fas fa-star blue"></i>
+                        <i class="fas fa-star grey"></i>
+                    </p>
+                </div>
+                <div class="carte_resultat">
+                    <img src="" alt="">
+                    <p class="titre_carte">Auberge la canebière </p>
+                    <p class="tarif_nuit">Nuit à partire de 25€</p>
+                    <p class="rating">
+                        <i class="fas fa-star blue"></i>
+                        <i class="fas fa-star blue"></i>
+                        <i class="fas fa-star blue"></i>
+                        <i class="fas fa-star blue"></i>
+                        <i class="fas fa-star grey"></i>
+                    </p>
+                </div>
+                <div class="carte_resultat">
+                    <img src="" alt="">
+                    <p class="titre_carte">Auberge la canebière </p>
+                    <p class="tarif_nuit">Nuit à partire de 25€</p>
+                    <p class="rating">
+                        <i class="fas fa-star blue"></i>
+                        <i class="fas fa-star blue"></i>
+                        <i class="fas fa-star blue"></i>
+                        <i class="fas fa-star blue"></i>
+                        <i class="fas fa-star grey"></i>
+                    </p>
+                </div>
+                <div class="carte_resultat">
+                    <img src="" alt="">
+                    <p class="titre_carte">Auberge la canebière </p>
+                    <p class="tarif_nuit">Nuit à partire de 25€</p>
+                    <p class="rating">
+                        <i class="fas fa-star blue"></i>
+                        <i class="fas fa-star blue"></i>
+                        <i class="fas fa-star blue"></i>
+                        <i class="fas fa-star blue"></i>
+                        <i class="fas fa-star grey"></i>
+                    </p>
+                </div>
+                <div class="carte_resultat">
+                    <img src="" alt="">
+                    <p class="titre_carte">Auberge la canebière </p>
+                    <p class="tarif_nuit">Nuit à partire de 25€</p>
+                    <p class="rating">
+                        <i class="fas fa-star blue"></i>
+                        <i class="fas fa-star blue"></i>
+                        <i class="fas fa-star blue"></i>
+                        <i class="fas fa-star blue"></i>
+                        <i class="fas fa-star grey"></i>
+                    </p>
+                </div>
+                <div class="carte_resultat">
+                    <img src="" alt="">
+                    <p class="titre_carte">Auberge la canebière </p>
+                    <p class="tarif_nuit">Nuit à partire de 25€</p>
+                    <p class="rating">
+                        <i class="fas fa-star blue"></i>
+                        <i class="fas fa-star blue"></i>
+                        <i class="fas fa-star blue"></i>
+                        <i class="fas fa-star blue"></i>
+                        <i class="fas fa-star grey"></i>
+                    </p>
+                </div>
+                <div class="carte_resultat">
+                    <img src="" alt="">
+                    <p class="titre_carte">Auberge la canebière </p>
+                    <p class="tarif_nuit">Nuit à partire de 25€</p>
+                    <p class="rating">
+                        <i class="fas fa-star blue"></i>
+                        <i class="fas fa-star blue"></i>
+                        <i class="fas fa-star blue"></i>
+                        <i class="fas fa-star blue"></i>
+                        <i class="fas fa-star grey"></i>
+                    </p>
+                </div>
+                <div class="carte_resultat">
+                    <img src="" alt="">
+                    <p class="titre_carte">Auberge la canebière </p>
+                    <p class="tarif_nuit">Nuit à partire de 25€</p>
+                    <p class="rating">
+                        <i class="fas fa-star blue"></i>
+                        <i class="fas fa-star blue"></i>
+                        <i class="fas fa-star blue"></i>
+                        <i class="fas fa-star blue"></i>
+                        <i class="fas fa-star grey"></i>
+                    </p>
+                </div>
+            </div>
+            <div class="hebergement_populaire">
+                <h2>Hébergment à Marseille <i class="fas fa-chart-line"></i></h2>
+            </div>
         </div>
     </section>
     <footer>
