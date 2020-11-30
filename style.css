@@ -56,17 +56,18 @@ section.recherche {
 .filter {
   display: flex;
   margin-top: 15px;
+  justify-content: flex-start;
 }
 .filter_title {
   margin: auto;
 }
 .filter_icon {
-  height: 100%;
-  width: auto;
   border-radius: 50%;
-  border: 1px solid black;
-  background-color: blue;
-  color: white;
+  background-color:#DEEBFF;
+  color: #0065FC;
+}
+.filter:hover{
+  transform: rotate(90),scale(1.1); 
 }
 
 .filter_type {
