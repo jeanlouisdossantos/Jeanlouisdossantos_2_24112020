@@ -8,6 +8,7 @@ header {
   height: auto;
   display: flex;
   flex-wrap: wrap;
+  font-size: smaller;
 }
 .header_haut {
   display: flex;
@@ -28,7 +29,6 @@ nav {
     display: flex;
     align-items: center;
     justify-items: center;
-
 }
 .nav_lien{
     margin:auto
