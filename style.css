@@ -52,7 +52,6 @@ section.recherche {
 
 }
 .filter_type{
-  background-color: blue;
   margin : auto;
   padding : 5px;
   border : 1px solid grey;
@@ -114,4 +113,13 @@ i.blue {
 
 i.grey {
   color: grey;
+}
+/* FOoter */
+
+footer{
+  display : flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  background-color: lightgray;
+  margin-top: 20px;
 }
