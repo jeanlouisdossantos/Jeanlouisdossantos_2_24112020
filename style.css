@@ -2,6 +2,9 @@
 body{
   font-family: 'Raleway', sans-serif;
 }
+a{
+  text-decoration: none;
+}
 /* header */
 
 header {
@@ -20,7 +23,8 @@ header {
 }
 nav {
   width: 800px;
-  display: flex;color:grey;
+  display: flex;
+  color: #F2F2F2;
   justify-content: space-between;
 }
 .nav_item{
@@ -94,13 +98,41 @@ div.hebergement_resultat {
   margin: auto;
   display: flex;
   flex-wrap: wrap;
-}
+  }
 div.carte_resultat {
-  border: 10px solid white;
-  border-radius: 10px 10px 0 0;
-  background-color: red;
+  border: 5px solid white;
+  background-color: white;
+  border-radius: 10px;
   flex: 1 1 auto;
-  margin: 50px;
+  margin:5px;
+  width: 25%;
+
+}
+
+.hotel_pictures{
+  width:100%;
+  height: 75px;
+
+  border-radius: 10px 10px 0px 0px;
+}
+.card_title{
+  font-size:small;
+  font-weight: bold;
+  margin: 0%;
+}
+.card_description{
+  font-size: smaller;
+  margin: 0%;
+
+}
+.rating{
+  font-size: small;
+  margin: 0%;
+}
+
+.section_bottom{
+position: relative;
+position:bottom;
 }
 div.hebergement_populaire {
   width: 30%;
