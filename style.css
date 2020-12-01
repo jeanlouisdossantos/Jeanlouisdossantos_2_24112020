@@ -144,6 +144,7 @@ div.carte_resultat {
   height: 100px;
   text-align: center;
   border-radius: 10px 10px 0px 0px;
+  object-fit: cover;
 }
 .card_title {
   font-size: small;
@@ -159,17 +160,45 @@ div.carte_resultat {
   margin: 0%;
 }
 
-div.hebergement_populaire {
+.section_bottom{
+  flex:100%;
+  font-size: small;
+  margin:15px;
+}
+.favorite_place {
   width: 30%;
-  border-radius: 5px;
-  background-color: lightgrey;
-  margin: auto;
+  border-radius: 10px;
+  background-color: #f2f2f2;
 }
-
+.favorite_place_header{
+display: flex;
+justify-content: space-between;
+}
+.favorite_icon{
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 1.5em;
+}
 i.blue {
-  color: blue;
+  color: #0065fc;
 }
-
+.favorite_card{
+background-color: white;  
+  width: auto;
+  border: 5px solid white;
+  border-radius: 10px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.favorite_picture{
+  border-radius: 10PX;
+  width: 50%;
+  height: auto;
+  object-fit: contain;
+}
 i.grey {
   color: grey;
 }
@@ -178,7 +207,10 @@ i.grey {
 footer {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: flex-start;
   background-color: lightgray;
   margin-top: 20px;
+}
+.footer-section:nth-child(1){
+  margin-left: 10px;
 }
