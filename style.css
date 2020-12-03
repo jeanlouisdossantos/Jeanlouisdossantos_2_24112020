@@ -1,4 +1,27 @@
 /* General */
+
+@media (max-width: 800px) {
+  
+.hebergement{
+  flex-direction: column-reverse;
+}
+.w25{
+  width:100%;
+}
+.w70{
+  width:100%;
+}
+}
+@media (min-width: 801px) {
+  
+.w70 {
+  width: 70%;
+}
+.w25 {
+ margin-left: 10px;
+ width: 25%;
+}
+}
 body {
   font-family: "Raleway", sans-serif;
 }
@@ -127,38 +150,37 @@ nav {
 .container {
   background-color: #f2f2f2;
   border-radius: 10px;
-  width: 50%;
 }
-.w70 {
-  width: 70%;
-}
-.w25 {
-  width: 25%;
-}
+
 .hebergement {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   height: fit-content;
 }
+.hebergement_resultat a{
+  min-width: 250px;
+  width: 33%;
+}
+
 .hebergement_titre {
   flex: 100%;
 }
 .hebergement_resultat {
   margin: 15px;
-  height: fit-content;
   border-radius: 10px;
   background-color: #f2f2f2;
   display: flex;
+  height: 95%;
+  width: auto;
   flex-wrap: wrap;
 }
 .carte_resultat {
   border: 5px solid white;
   background-color: white;
   border-radius: 10px;
-  flex: 1 1 auto;
+  flex: 1 1 33%;
   margin: 5px;
-  width: 25%;
   min-width: 200px;
   display: flex;
   flex-direction: column;
@@ -196,6 +218,7 @@ i.grey {
 }
 .section_bottom {
   flex: 100%;
+  align-self: baseline;
   font-size: 16px;
   margin: 15px;
 }
@@ -217,6 +240,9 @@ i.grey {
   margin-bottom: auto;
   font-size: 1.5em;
 }
+.favorite_desc{
+  margin-left: 10px;
+}
 .favorite_card {
   background-color: white;
   border: 5px solid white;
@@ -225,13 +251,14 @@ i.grey {
   justify-content: space-between;
   align-items: center;
   margin-top: 15px;
-  min-height: 20%;
+  max-width: 500px;
 
 }
 .favorite_picture {
   border-radius: 10px;
   width: 50%;
-  object-fit: fill;
+  height: 100px;
+  object-fit: cover;
 }
 /* FOoter */
 
