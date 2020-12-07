@@ -1,25 +1,5 @@
 /* General */
 
-@media (max-width: 800px) {
-  .hebergement {
-    flex-direction: column-reverse;
-  }
-  .w25 {
-    width: 100%;
-  }
-  .w70 {
-    width: 100%;
-  }
-}
-@media (min-width: 801px) {
-  .w70 {
-    width: 72%;
-  }
-  .w25 {
-    margin-left: 10px;
-    width: 25%;
-  }
-}
 body {
   font-family: "Raleway", sans-serif;
 }
@@ -109,28 +89,41 @@ nav {
   flex-wrap: wrap;
   margin-top: 15px;
   justify-content: flex-start;
+  width: fit-content;
 }
 .filter_title {
   color: red;
   font-size: 20px;
-}
-.filter_icon {
-  border-radius: 50%;
-  background-color: #deebff;
-  color: #0065fc;
-}
-.filter:hover {
-  transform: rotate(90), scale(1.1);
 }
 
 .filter_type {
   border: 1px solid grey;
   border-radius: 50px;
   font-size: 20px;
-  margin-left: 5px;
-  padding-left: 10px;
-  padding-right: 10px;
+  margin-left: 15px;
+  padding-right: 5px;
+  display: flex;
+  justify-content: space-between;
 }
+
+.filter_icon_container{
+  border-radius: 50%;
+  background-color: #deebff;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  margin-right: 10px;
+
+}
+.filter_icon {
+   color: #0065fc;
+   margin: auto;
+}
+.filter_type:hover {
+  transform: scale(1.1);
+  box-shadow: 10px 10px 5px black;
+}
+
 .centered_icon {
   margin-top: 10px;
   color: blue;
@@ -267,6 +260,7 @@ i.grey {
   display: flex;
   flex-flow: row wrap;
   margin-top: 20px;
+  max-height: 400px;
 }
 .activity_title {
   width: 100%;
@@ -284,7 +278,8 @@ i.grey {
   flex-direction: column;
 }
 .main_activity img {
-  height: 90%;
+  height: 85%;
+  max-height: 300px;
   width: 100%;
   object-fit: cover;
   border-radius: 20px 20px 0px 0px;
@@ -299,16 +294,16 @@ i.grey {
 }
 .secondary_activity_card {
   flex: 1;
-  max-height: 50%;
-  height: max-content;
+  max-height: 150px;
   box-shadow: 10px 10px 5px lightgrey;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
 }
-.secondary_activity_card:nth-child(1) {
-  margin-bottom: 20px;
+.secondary_activity_card {
+margin-bottom: 20px ;
 }
+
 .secondary_activity_card img {
   height: 80%;
   width: 100%;
@@ -327,4 +322,25 @@ footer {
 }
 .footer-section:nth-child(1) {
   margin-left: 10px;
+}
+/* responsive */
+@media (max-width: 800px) {
+  .hebergement {
+    flex-direction: column-reverse;
+  }
+  .w25 {
+    width: 100%;
+  }
+  .w70 {
+    width: 100%;
+  }
+}
+@media (min-width: 801px) {
+  .w70 {
+    width: 72%;
+  }
+  .w25 {
+    margin-left: 10px;
+    width: 25%;
+  }
 }
