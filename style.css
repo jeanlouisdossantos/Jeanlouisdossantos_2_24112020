@@ -238,7 +238,10 @@ i.grey {
   flex: 100%;
   align-self: baseline;
   font-size: 16px;
-  margin: 15px;
+  margin-left : 20px;
+  margin-top: 10px;
+  margin-bottom: 0;
+
 }
 .favorite_place {
   display: flex;
@@ -282,7 +285,7 @@ i.grey {
   display: flex;
   flex-flow: row wrap;
   margin-top: 20px;
-  max-height: 400px;
+  max-height: 600px;
 }
 .activity_title {
   width: 100%;
@@ -305,6 +308,9 @@ i.grey {
   width: 100%;
   object-fit: cover;
   border-radius: 20px 20px 0px 0px;
+}
+.main_activity_card .section_bottom{
+  font-weight: bolder;
 }
 .secondary_activity {
   flex: 1;
@@ -331,6 +337,9 @@ i.grey {
   width: 100%;
   object-fit: cover;
   border-radius: 20px 20px 0px 0px;
+}
+.secondary_activity_card .section_bottom{
+  font-weight: bolder;
 }
 /* FOoter */
 
