@@ -88,7 +88,6 @@ nav ul li:last-child a{
   color: #0065fc;
   background-color: #f2f2f2;
   border-radius: 10px 0px 0px 10px;
-  padding: auto;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -103,9 +102,7 @@ nav ul li:last-child a{
   display: flex;
   align-items: baseline;
 }
-.ligne_info:nth-child() {
-  margin: auto;
-}
+
 .no_display{
   display:none;
 }
@@ -197,7 +194,7 @@ nav ul li:last-child a{
   flex-wrap: wrap;
 }
 .carte_resultat {
-  border: 5px solid white;
+  padding: 5px;
   background-color: white;
   border-radius: 10px;
   flex: 1 1 33%;
@@ -270,7 +267,7 @@ i.grey {
 }
 .favorite_card {
   background-color: white;
-  border: 5px solid white;
+ padding: 5px;
   border-radius: 10px;
   display: flex;
   justify-content: space-between;
