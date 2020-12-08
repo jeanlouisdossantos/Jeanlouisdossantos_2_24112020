@@ -106,6 +106,9 @@ nav ul li:last-child a{
 .ligne_info:nth-child() {
   margin: auto;
 }
+.no_display{
+  display:none;
+}
 
 .filter {
   display: flex;
