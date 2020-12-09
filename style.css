@@ -2,7 +2,6 @@
 
 body {
   font-family: "Raleway", sans-serif;
- 
 }
 a {
   text-decoration: none;
@@ -55,14 +54,14 @@ nav ul li:hover {
 }
 
 nav ul li a:hover {
-  color : #0065fc;
-}
-
-nav ul li:last-child a{
   color: #0065fc;
 }
-section{
-margin-left: 10px;
+
+nav ul li:last-child a {
+  color: #0065fc;
+}
+section {
+  margin-left: 10px;
   margin-right: 10px;
 }
 .search {
@@ -94,8 +93,8 @@ margin-left: 10px;
   align-items: baseline;
 }
 
-.no_display{
-  display:none;
+.no_display {
+  display: none;
 }
 
 .filter {
@@ -106,7 +105,6 @@ margin-left: 10px;
   width: fit-content;
 }
 .filter_title {
-  color: red;
   font-size: 20px;
 }
 
@@ -138,15 +136,14 @@ margin-left: 10px;
 }
 
 .centered_icon {
-  margin-top: 10px;
   color: blue;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   border: 1px solid grey;
-  /* font-size: 40px; */
   width: 20px;
+  min-width:20px;
   height: 20px;
   border-radius: 50%;
   box-shadow: 0 2px 1px rgba(0, 0, 0, 0.05), 0 2px 3px rgba(0, 0, 0, 0.05),
@@ -229,11 +226,9 @@ i.grey {
   flex: 100%;
   align-self: baseline;
   font-size: 16px;
-  margin-left : 20px;
+  margin-left: 20px;
   margin-top: 10px;
   margin-bottom: 0;
- 
-
 }
 .favorite_place {
   display: flex;
@@ -258,7 +253,7 @@ i.grey {
 }
 .favorite_card {
   background-color: white;
- padding: 5px;
+  padding: 5px;
   border-radius: 10px;
   display: flex;
   justify-content: space-between;
@@ -301,9 +296,9 @@ i.grey {
   object-fit: cover;
   border-radius: 20px 20px 0px 0px;
 }
-.main_activity_card .section_bottom{
+.main_activity_card .section_bottom {
   font-weight: bolder;
-  margin-top:15px;
+  margin-top: 15px;
   vertical-align: middle;
 }
 .secondary_activity {
@@ -327,13 +322,13 @@ i.grey {
 }
 
 .secondary_activity_card img {
-  width:100%;
-  height:80%;
+  width: 100%;
+  height: 80%;
   max-height: 150px;
   object-fit: cover;
   border-radius: 20px 20px 0px 0px;
 }
-.secondary_activity_card .section_bottom{
+.secondary_activity_card .section_bottom {
   font-weight: bolder;
 }
 /* FOoter */
@@ -351,37 +346,59 @@ footer {
 }
 /* responsive */
 @media (max-width: 800px) {
+  body{
+    margin:0px;
+  }
+  section{
+    margin: 15px 0px 0px 0px;
+  }
   .hebergement {
     flex-direction: column-reverse;
   }
   .w25 {
     width: 100%;
+    border-radius: 0;
   }
   .w70 {
     width: 100%;
+    background-color: white;
   }
-  .activity{
+  .hebergement_resultat{
+    background-color: white;
+  }
+  .hebergement_resultat a{
+    width:90vw;
+    margin: auto;
+  }
+  .filter_title {
+    width: 100%;
+  }
+  .filter_type{
+    margin-top:20px;
+  }
+  .activity {
     flex-flow: column wrap;
     height: auto;
     max-height: fit-content;
   }
-  .main_activity{
+  .main_activity {
     margin: 10px;
   }
-  .secondary_activity{
-    margin:10px;
+  .secondary_activity {
+    margin: 10px;
   }
-  .secondary_activity_card{
+  .secondary_activity_card {
     max-height: fit-content;
   }
-  .secondary_activity_card:nth-child(1){
+  .secondary_activity_card:nth-child(1) {
     margin-bottom: 10px;
   }
-  .main_activity_card img,.secondary_activity_card img{
+  .main_activity_card img,
+  .secondary_activity_card img {
     height: 200px;
     max-height: 200px;
   }
-  footer{
+  footer {
     flex-direction: column;
   }
 }
