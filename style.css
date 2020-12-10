@@ -27,19 +27,23 @@ header {
 .header_haut {
   display: flex;
   width: 100%;
+  ;
 }
 .logo {
-  width: 80%;
-  flex: 1 1 auto;
-  margin: auto;
+  margin: 10px;
+  
 }
 nav {
-  width: 800px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between
 }
 nav ul {
   display: flex;
+  max-width: 30%;
   flex-flow: row wrap;
   justify-content: space-between;
+  float: right;
 }
 nav ul li {
   height: 80px;
@@ -48,14 +52,18 @@ nav ul li {
   align-items: center;
   font-size: 18px;
   font-weight: bold;
+  margin: 0px 20px 0px 20px;
+  padding-top: 2px;
 }
 nav ul li:hover {
   border-top: 2px solid #0065fc;
+  padding-top: 0px;
+  color: #0065fc;
 }
-
 nav ul li a:hover {
   color: #0065fc;
 }
+
 
 nav ul li:last-child a {
   color: #0065fc;
@@ -74,16 +82,27 @@ section {
 }
 .search_icon {
   height: 100%;
-  width: 20px;
-  color: #0065fc;
+  width: 40px;
+  color:black;
   background-color: #f2f2f2;
   border-radius: 10px 0px 0px 10px;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
+.search_text{
+  min-width:250px;
+  font-weight: 900;
+  padding-left: 10px;
+  font-family: "Raleway", sans-serif;
+  
+}
+
 .search_button {
   background-color: #0065fc;
+  color: white;
+  
+  font-weight: bold;
   margin: 0;
   border-radius: 0px 10px 10px 0px;
   border: none;
@@ -106,23 +125,33 @@ section {
 }
 .filter_title {
   font-size: 20px;
+  display: flex;
+  align-items: center;
+  font-weight: 900;
+ 
 }
 
 .filter_type {
-  border: 1px solid grey;
+  border: 2px solid #f2f2f2;
   border-radius: 50px;
   font-size: 20px;
   margin-left: 15px;
-  padding-right: 5px;
+  padding-right: 10px;
   display: flex;
   justify-content: space-between;
+}
+.filter_text{
+  margin: auto;
+  font-weight: bolder;
+  text-transform: capitalize;
 }
 
 .filter_icon_container {
   border-radius: 50%;
+  border: 2px solid #deebff;
   background-color: #deebff;
-  height: 30px;
-  width: 30px;
+  height: 50px;
+  width: 50px;
   display: flex;
   margin-right: 10px;
 }
@@ -136,6 +165,7 @@ section {
 }
 
 .centered_icon {
+  margin-left: 10px;
   color: blue;
   display: flex;
   flex-direction: column;
@@ -341,7 +371,7 @@ footer {
   margin-top: 50px;
   padding-right: 150px;
 }
-.footer-section:nth-child(1) {
+footer .footer-section{
   margin-left: 10px;
 }
 /* responsive */
@@ -352,7 +382,45 @@ footer {
   section{
     margin: 15px 0px 0px 0px;
   }
-  .hebergement {
+  nav {display: block;
+  }
+  .logo{
+    width: 100px;
+    height: 40px;
+    margin: 20px 0px 0px 20px;
+  }
+  nav ul{
+    width: 100%;
+    max-width: none;
+  }
+ nav ul li{
+   width:50%;
+   height: 40px;
+   margin:0;
+   justify-content: center;
+      
+ }
+ nav ul li:hover{
+   border-top: none;
+   border-bottom:2px solid #0065fc ;
+ }
+ nav ul li:last-child{
+   position: absolute;
+   top: 20px;
+   left: 60vw;
+   font-weight: bolder;
+ }
+ form{
+    margin:auto}
+
+  .search_bar{
+    margin: auto;
+ }
+ .filter_title{
+   margin-left: 20px;
+ }
+
+   .hebergement {
     flex-direction: column-reverse;
   }
   .w25 {
@@ -375,6 +443,11 @@ footer {
   }
   .filter_type{
     margin-top:20px;
+  }
+  .favorite_card{
+    max-width: none;
+    margin-right: 15px;
+    margin-left:15px;
   }
   .activity {
     flex-flow: column wrap;
