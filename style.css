@@ -40,7 +40,7 @@ nav {
 }
 nav ul {
   display: flex;
-  max-width: 30%;
+  max-width: 40%;
   flex-flow: row wrap;
   justify-content: space-between;
   float: right;
@@ -101,11 +101,17 @@ section {
 .search_button {
   background-color: #0065fc;
   color: white;
-  
+  display: flex;
   font-weight: bold;
-  margin: 0;
   border-radius: 0px 10px 10px 0px;
   border: none;
+}
+.search_button i{
+  display: none;
+}
+.search_button p{
+  margin: auto;
+
 }
 .ligne_info {
   display: flex;
@@ -147,8 +153,8 @@ section {
 }
 
 .filter_icon_container {
-  border-radius: 50%;
-  border: 2px solid #deebff;
+  border-radius: 50px;
+  border: 1px solid #deebff;
   background-color: #deebff;
   height: 50px;
   width: 50px;
@@ -418,6 +424,16 @@ footer .footer-section{
   .search_bar{
     margin: auto;
  }
+ 
+.search_button i{
+  display: flex;
+  margin: auto 5px auto 5px;
+}
+.search_button p{
+  display: none;
+  margin: auto;
+
+}
  .filter_title{
    margin-left: 20px;
  }
