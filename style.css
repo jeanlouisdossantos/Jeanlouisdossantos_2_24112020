@@ -498,12 +498,41 @@ footer .footer-section{
     flex-direction: column;
   }
 }
-@media (min-width: 801px) {
+@media (min-width:801px) and (max-width:1200px) {
+  .w70 {
+    width: 100%;
+  }
+  .w25 {
+    margin-top: 10px;
+        width: 100%;
+  }
+
+  .hebergement_resultat a {
+    width: 50%;
+  }
+  
+.hotel_pictures {
+  height: 250px;
+}
+  .favorite_place{flex-flow: row wrap ;}
+  .favorite_place_header{
+    width: 100%;
+  }
+  .favorite_card{
+    width: 30%;
+    margin: auto;
+  }
+}
+
+
+@media (min-width: 1201px) {
   .w70 {
     width: 72%;
   }
   .w25 {
-    margin-left: 10px;
-    width: 25%;
+    margin-left:25px;
+        width: 25%;
+        
   }
+  
 }
