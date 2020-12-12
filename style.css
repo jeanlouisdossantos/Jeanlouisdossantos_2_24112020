@@ -128,6 +128,7 @@ section {
   margin-top: 15px;
   justify-content: flex-start;
   width: fit-content;
+  
 }
 .filter_title {
   font-size: 20px;
@@ -139,12 +140,15 @@ section {
 
 .filter_type {
   border: 2px solid #f2f2f2;
+  border-left: 0px;
   border-radius: 50px;
   font-size: 20px;
   margin-left: 15px;
   padding-right: 10px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  height:48px
 }
 .filter_text{
   margin: auto;
@@ -160,6 +164,7 @@ section {
   width: 50px;
   display: flex;
   margin-right: 10px;
+  
 }
 .filter_icon {
   color: #0065fc;
