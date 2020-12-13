@@ -1,11 +1,4 @@
 /* General */
-/* 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap'); */
-@font-face{
-font-family: "Raleway";
-src:url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap')
-}
-
 
 body {
   font-family: "Raleway", sans-serif;
@@ -34,7 +27,6 @@ header {
 .header_haut {
   display: flex;
   width: 100%;
-  ;
 }
 .logo {
   margin: 10px;
