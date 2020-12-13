@@ -1,6 +1,11 @@
 /* General */
+/* 
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap'); */
+@font-face{
+font-family: "Raleway";
+src:url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap')
+}
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 
 body {
   font-family: "Raleway", sans-serif;
@@ -46,6 +51,7 @@ nav ul {
   flex-flow: row wrap;
   justify-content: space-between;
   float: right;
+  margin-top: 0;
 }
 nav ul li {
   height: 80px;
