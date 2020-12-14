@@ -390,6 +390,13 @@ footer .footer-section {
   body {
     margin: 0px;
   }
+  header {
+    margin: 0;
+  }
+  .header_bas {
+    margin: 0px 20px 0px 20px;
+    font-size: 18px;
+  }
   nav {
     display: block;
   }
@@ -407,6 +414,10 @@ footer .footer-section {
     height: 40px;
     margin: 0;
     justify-content: center;
+  }
+  nav ul li:nth-child(1),
+  nav ul li:nth-child(2) {
+    border-bottom: 2px solid #f2f2f2;
   }
   nav ul li:hover {
     border-top: none;
@@ -437,13 +448,13 @@ footer .footer-section {
   .filter_title {
     margin-left: 20px;
   }
-section{
-  margin: 0;
-}
+  section {
+    margin: 0;
+  }
   .hebergement {
     flex-direction: column-reverse;
   }
-  .carte_resultat{
+  .carte_resultat {
     margin-right: 0;
     margin-left: 0;
   }
@@ -470,7 +481,7 @@ section{
   }
   .favorite_card {
     max-width: none;
-    }
+  }
   .activity {
     flex-flow: column wrap;
     height: auto;
@@ -478,13 +489,13 @@ section{
   }
   .activity_title {
     margin: auto;
-    width:90%;
+    width: 90%;
   }
-  .main_activity{
-margin: 0px auto 20px auto;
-max-width: 90%;
+  .main_activity {
+    margin: 0px auto 20px auto;
+    max-width: 90%;
   }
-  .secondary_activity{
+  .secondary_activity {
     margin: 0 auto 20px auto;
     max-width: 90%;
   }
@@ -523,9 +534,9 @@ max-width: 90%;
     width: 30%;
     margin: auto;
   }
-.secondary_activity_card img{
-  max-height: 75%;
-}
+  .secondary_activity_card img {
+    max-height: 75%;
+  }
 }
 
 @media (min-width: 1201px) {
