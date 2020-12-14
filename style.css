@@ -15,8 +15,8 @@ h2 {
 p {
   font-size: 18px;
 }
-.shadowed{
-box-shadow: 4px 4px 2px rgb(216, 216, 216);
+.shadowed {
+  box-shadow: 4px 4px 2px rgb(216, 216, 216);
 }
 /* header */
 
@@ -34,12 +34,11 @@ header {
 }
 .logo {
   margin: 10px;
-  
 }
 nav {
   width: 100%;
   display: flex;
-  justify-content: space-between
+  justify-content: space-between;
 }
 nav ul {
   display: flex;
@@ -68,7 +67,6 @@ nav ul li a:hover {
   color: #0065fc;
 }
 
-
 nav ul li:last-child a {
   color: #0065fc;
 }
@@ -87,20 +85,19 @@ section {
 .search_icon {
   height: 100%;
   width: 40px;
-  color:black;
+  color: black;
   background-color: #f2f2f2;
   border-radius: 10px 0px 0px 10px;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-.search_text{
-  min-width:150px;
+.search_text {
+  min-width: 150px;
   font-weight: 900;
   padding-left: 10px;
   font-family: "Raleway", sans-serif;
   border: 1px solid #f2f2f2;
-  
 }
 
 .search_button {
@@ -108,16 +105,15 @@ section {
   color: white;
   display: flex;
   align-items: center;
-  font-weight:500;
+  font-weight: 500;
   border-radius: 0px 10px 10px 0px;
   border: none;
 }
-.search_button i{
+.search_button i {
   display: none;
 }
-.search_button p{
+.search_button p {
   margin: auto;
-
 }
 .ligne_info {
   display: flex;
@@ -134,14 +130,12 @@ section {
   margin-top: 15px;
   justify-content: flex-start;
   width: fit-content;
-  
 }
 .filter_title {
   font-size: 20px;
   display: flex;
   align-items: center;
   font-weight: 900;
- 
 }
 
 .filter_type {
@@ -149,14 +143,14 @@ section {
   border-left: 0px;
   border-radius: 50px;
   font-size: 20px;
-  margin-left: 15px;
+  margin-left: 25px;
   padding-right: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height:42px
+  height: 42px;
 }
-.filter_text{
+.filter_text {
   margin: auto;
   font-weight: bolder;
   text-transform: capitalize;
@@ -170,7 +164,6 @@ section {
   width: 40px;
   display: flex;
   margin-right: 10px;
-  
 }
 .filter_icon {
   color: #0065fc;
@@ -191,7 +184,7 @@ section {
   align-items: center;
   border: 1px solid grey;
   width: 20px;
-  min-width:20px;
+  min-width: 20px;
   height: 20px;
   border-radius: 50%;
   box-shadow: 0 2px 1px rgba(0, 0, 0, 0.05), 0 2px 3px rgba(0, 0, 0, 0.05),
@@ -240,7 +233,6 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
- ;
 }
 
 .hotel_pictures {
@@ -277,8 +269,6 @@ i.grey {
   align-self: baseline;
   font-size: 16px;
   margin-left: 20px;
-  
-  
 }
 .favorite_place {
   display: flex;
@@ -300,6 +290,7 @@ i.grey {
 }
 .favorite_desc {
   margin-left: 10px;
+  width: 50%;
 }
 .favorite_card {
   background-color: white;
@@ -310,7 +301,7 @@ i.grey {
   align-items: center;
   margin-top: 15px;
   max-width: 500px;
-  min-height:150px;
+  min-height: 150px;
 }
 .favorite_picture {
   border-radius: 10px;
@@ -372,13 +363,14 @@ i.grey {
   object-fit: cover;
   border-radius: 20px 20px 0px 0px;
 }
-div.section_bottom{
+div.section_bottom {
   display: flex;
   align-items: center;
+  height: fit-content;
 }
-div.section_bottom h2{
+div.section_bottom h2 {
   margin: auto;
-  font-size:16px;
+  font-size: 16px;
 }
 /* FOoter */
 
@@ -390,67 +382,68 @@ footer {
   margin-top: 50px;
   padding-right: 150px;
 }
-footer .footer-section{
+footer .footer-section {
   margin-left: 10px;
 }
 /* responsive */
 @media (max-width: 767px) {
-  body{
-    margin:0px;
+  body {
+    margin: 0px;
   }
-  section{
-    margin: 15px 0px 0px 0px;
+  nav {
+    display: block;
   }
-  nav {display: block;
-  }
-  .logo{
+  .logo {
     width: 100px;
     height: 40px;
     margin: 20px 0px 0px 20px;
   }
-  nav ul{
+  nav ul {
     width: 100%;
     max-width: none;
   }
- nav ul li{
-   width:50%;
-   height: 40px;
-   margin:0;
-   justify-content: center;
-      
- }
- nav ul li:hover{
-   border-top: none;
-   border-bottom:2px solid #0065fc ;
- }
- nav ul li:last-child{
-   position: absolute;
-   top: 20px;
-   left: 50%;
-   font-weight: bolder;
- }
- form{
-    margin:auto}
-
-  .search_bar{
+  nav ul li {
+    width: 50%;
+    height: 40px;
+    margin: 0;
+    justify-content: center;
+  }
+  nav ul li:hover {
+    border-top: none;
+    border-bottom: 2px solid #0065fc;
+  }
+  nav ul li:last-child {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    font-weight: bolder;
+  }
+  form {
     margin: auto;
- }
- 
-.search_button i{
-  display: flex;
-  margin: auto 5px auto 5px;
-}
-.submit_text{
-  display: none;
-  margin: auto;
+  }
 
-}
- .filter_title{
-   margin-left: 20px;
- }
+  .search_bar {
+    margin: auto;
+  }
 
-   .hebergement {
+  .search_button i {
+    display: flex;
+    margin: auto 5px auto 5px;
+  }
+  .submit_text {
+    display: none;
+    margin: auto;
+  }
+  .filter_title {
+    margin-left: 20px;
+  }
+
+  .hebergement {
     flex-direction: column-reverse;
+  }
+  .carte_resultat{
+    margin-right: 0;
+    margin-left: 0;
   }
   .w25 {
     width: 100%;
@@ -460,30 +453,28 @@ footer .footer-section{
     width: 100%;
     background-color: white;
   }
-  .hebergement_resultat{
+  .hebergement_resultat {
     background-color: white;
   }
-  .hebergement_resultat a{
-    width:90vw;
+  .hebergement_resultat a {
+    width: 90vw;
     margin: auto;
   }
   .filter_title {
     width: 100%;
   }
-  .filter_type{
-    margin-top:20px;
+  .filter_type {
+    margin-top: 20px;
   }
-  .favorite_card{
+  .favorite_card {
     max-width: none;
-    margin-right: 15px;
-    margin-left:15px;
-  }
+    }
   .activity {
     flex-flow: column wrap;
     height: auto;
     max-height: fit-content;
   }
-  .activity_title{
+  .activity_title {
     margin-left: 10px;
   }
   .main_activity {
@@ -510,44 +501,47 @@ footer .footer-section{
     flex-direction: column;
   }
 }
-@media (min-width:768px) and (max-width:1200px) {
+@media (min-width: 768px) and (max-width: 1200px) {
   .w70 {
     width: 100%;
   }
   .w25 {
     margin-top: 10px;
-        width: 100%;
+    width: 100%;
   }
-  nav ul{
+  nav ul {
     max-width: none;
   }
 
   .hebergement_resultat a {
     width: 50%;
   }
-  
-.hotel_pictures {
-  height: 250px;
-}
-  .favorite_place{flex-flow: row wrap ;}
-  .favorite_place_header{
+
+  .hotel_pictures {
+    height: 250px;
+  }
+
+  .favorite_place {
+    flex-flow: row wrap;
+  }
+  .favorite_place_header {
     width: 100%;
   }
-  .favorite_card{
+  .favorite_card {
     width: 30%;
     margin: auto;
   }
+.secondary_activity_card img{
+  max-height: 75%;
 }
-
+}
 
 @media (min-width: 1201px) {
   .w70 {
     width: 72%;
   }
   .w25 {
-    margin-left:25px;
-        width: 25%;
-        
+    margin-left: 25px;
+    width: 25%;
   }
-  
 }
