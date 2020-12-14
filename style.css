@@ -394,7 +394,7 @@ footer .footer-section{
   margin-left: 10px;
 }
 /* responsive */
-@media (max-width: 800px) {
+@media (max-width: 767px) {
   body{
     margin:0px;
   }
@@ -440,7 +440,7 @@ footer .footer-section{
   display: flex;
   margin: auto 5px auto 5px;
 }
-.search_button p{
+.submit_text{
   display: none;
   margin: auto;
 
@@ -505,13 +505,16 @@ footer .footer-section{
     flex-direction: column;
   }
 }
-@media (min-width:801px) and (max-width:1200px) {
+@media (min-width:768px) and (max-width:1200px) {
   .w70 {
     width: 100%;
   }
   .w25 {
     margin-top: 10px;
         width: 100%;
+  }
+  nav ul{
+    max-width: none;
   }
 
   .hebergement_resultat a {
