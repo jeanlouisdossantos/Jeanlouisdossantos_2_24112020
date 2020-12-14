@@ -437,7 +437,9 @@ footer .footer-section {
   .filter_title {
     margin-left: 20px;
   }
-
+section{
+  margin: 0;
+}
   .hebergement {
     flex-direction: column-reverse;
   }
@@ -476,25 +478,16 @@ footer .footer-section {
   }
   .activity_title {
     margin-left: 10px;
+    width:fit-content;
+    margin: auto;
   }
-  .main_activity {
-    margin: 10px auto 10px auto;
-    max-width: 95%;
+  .main_activity{
+margin: 0px auto 20px auto;
+max-width: 90%;
   }
-  .secondary_activity {
-    margin: 10px auto 10px auto;
-    max-width: 95%;
-  }
-  .secondary_activity_card {
-    max-height: fit-content;
-  }
-  .secondary_activity_card:nth-child(1) {
-    margin-bottom: 20px;
-  }
-  .main_activity_card img,
-  .secondary_activity_card img {
-    height: 200px;
-    max-height: 200px;
+  .secondary_activity{
+    margin: 0 auto 20px auto;
+    max-width: 90%;
   }
   footer {
     padding: 0;
