@@ -268,7 +268,7 @@ i.grey {
   flex: 100%;
   align-self: baseline;
   font-size: 16px;
-  margin-left: 20px;
+  margin-left: 15px;
 }
 .favorite_place {
   display: flex;
@@ -477,9 +477,8 @@ section{
     max-height: fit-content;
   }
   .activity_title {
-    margin-left: 10px;
-    width:fit-content;
     margin: auto;
+    width:90%;
   }
   .main_activity{
 margin: 0px auto 20px auto;
