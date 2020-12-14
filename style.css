@@ -2,7 +2,7 @@
 
 body {
   font-family: "Raleway", sans-serif;
-  margin-top: 0px;
+  margin: 0;
 }
 a {
   text-decoration: none;
@@ -426,7 +426,7 @@ footer .footer-section{
  nav ul li:last-child{
    position: absolute;
    top: 20px;
-   left: 60vw;
+   left: 50%;
    font-weight: bolder;
  }
  form{
@@ -483,11 +483,16 @@ footer .footer-section{
     height: auto;
     max-height: fit-content;
   }
+  .activity_title{
+    margin-left: 10px;
+  }
   .main_activity {
-    margin: 10px;
+    margin: 10px auto 10px auto;
+    max-width: 95%;
   }
   .secondary_activity {
-    margin: 10px;
+    margin: 10px auto 10px auto;
+    max-width: 95%;
   }
   .secondary_activity_card {
     max-height: fit-content;
