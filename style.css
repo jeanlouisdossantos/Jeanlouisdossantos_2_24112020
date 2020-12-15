@@ -33,7 +33,7 @@ header {
   width: 100%;
 }
 .logo {
-  margin: 10px;
+  margin: 30px;
 }
 nav {
   width: 100%;
@@ -109,7 +109,7 @@ section {
   border-radius: 0px 10px 10px 0px;
   border: none;
 }
-.search_button i {
+.search_button_responsive{
   display: none;
 }
 .search_button p {
@@ -136,6 +136,7 @@ section {
   display: flex;
   align-items: center;
   font-weight: 900;
+  margin-bottom: 15px;
 }
 
 .filter_type {
@@ -144,6 +145,7 @@ section {
   border-radius: 50px;
   font-size: 20px;
   margin-left: 25px;
+  margin-bottom: 15px;
   padding-right: 10px;
   display: flex;
   justify-content: space-between;
@@ -436,10 +438,21 @@ footer .footer-section {
   .search_bar {
     margin: auto;
   }
-
-  .search_button i {
+.search_button{
+  display: none;
+}
+  .search_button_responsive{
     display: flex;
-    margin: auto 5px auto 5px;
+    background-color: #0065fc;
+  color: white;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  border-radius: 0px 10px 10px 0px;
+  border: none;
+  }
+  .search_button_responsive i{
+    margin: 0 5px 0 5px;
   }
   .submit_text {
     display: none;
@@ -498,6 +511,13 @@ footer .footer-section {
   .secondary_activity {
     margin: 0 auto 20px auto;
     max-width: 90%;
+  }
+  
+  .main_activity_card, .secondary_activity_card{
+    min-height: 200px;
+  }
+  .main_activity_card img, .secondary_activity_card img{
+    max-height: 150px;
   }
   footer {
     padding: 0;
