@@ -503,7 +503,7 @@ footer .footer-section {
   .activity {
     flex-flow: column wrap;
     height: auto;
-    max-height: fit-content;
+    max-height: none;
   }
   .activity_title {
     margin: auto;
