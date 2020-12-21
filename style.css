@@ -509,17 +509,13 @@ footer .footer-section {
     margin: auto;
     width: 90%;
   }
-  .main_activity {
-    margin: 0px auto 20px auto;
+  .main_activity ,.secondary_activity{
+    margin: 0px 15px 20px 15px;
     max-width: 90%;
-  }
-  .secondary_activity {
-    margin: 0 auto 20px auto;
-    max-width: 90%;
-  }
-  
+  }  
   .main_activity_card, .secondary_activity_card{
     min-height: 200px;
+    min-width: 100%;
   }
   .main_activity_card img, .secondary_activity_card img{
     max-height: 150px;
