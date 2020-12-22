@@ -373,7 +373,7 @@ i.grey {
 div.section_bottom {
   display: flex;
   align-items: center;
-  height: fit-content;
+  height: 40px;
   max-height: 40px;
   margin:auto 0 auto 15px;
 }
